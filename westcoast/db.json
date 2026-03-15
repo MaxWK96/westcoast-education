@@ -51,19 +51,6 @@
       "price": 5000,
       "popular": false,
       "description": "Lär dig modern CSS och hur man bygger responsiva webbsidor."
-    },
-    {
-      "title": "ef",
-      "courseNumber": "fe",
-      "days": 4,
-      "price": 444,
-      "classroom": true,
-      "distance": false,
-      "image": "https://placehold.co/400x220",
-      "date": "2026-03-14",
-      "popular": false,
-      "description": "Beskrivning saknas.",
-      "id": 5
     }
   ],
   "bookings": [
