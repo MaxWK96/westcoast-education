@@ -1,0 +1,127 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "JavaScript för nybörjare",
+      "courseNumber": "JS101",
+      "days": 5,
+      "classroom": true,
+      "distance": true,
+      "image": "https://placehold.co/400x220/4f46e5/white?text=JavaScript",
+      "date": "2026-05-10",
+      "price": 9500,
+      "popular": true,
+      "description": "Lär dig grunderna i JavaScript från scratch."
+    },
+    {
+      "id": 2,
+      "title": "React Fundamentals",
+      "courseNumber": "RE201",
+      "days": 3,
+      "classroom": true,
+      "distance": false,
+      "image": "https://placehold.co/400x220/0ea5e9/white?text=React",
+      "date": "2026-06-02",
+      "price": 7500,
+      "popular": true,
+      "description": "Kom igång med React och komponentbaserad utveckling."
+    },
+    {
+      "id": 3,
+      "title": "Node.js & REST API",
+      "courseNumber": "NO301",
+      "days": 4,
+      "classroom": false,
+      "distance": true,
+      "image": "https://placehold.co/400x220/16a34a/white?text=Node.js",
+      "date": "2026-06-15",
+      "price": 8500,
+      "popular": false,
+      "description": "Bygg egna REST API:er med Node.js och Express."
+    },
+    {
+      "id": 4,
+      "title": "CSS & Responsiv Design",
+      "courseNumber": "CS102",
+      "days": 2,
+      "classroom": true,
+      "distance": true,
+      "image": "https://placehold.co/400x220/db2777/white?text=CSS",
+      "date": "2026-07-01",
+      "price": 5000,
+      "popular": false,
+      "description": "Lär dig modern CSS och hur man bygger responsiva webbsidor."
+    },
+    {
+      "title": "ef",
+      "courseNumber": "fe",
+      "days": 4,
+      "price": 444,
+      "classroom": true,
+      "distance": false,
+      "image": "https://placehold.co/400x220",
+      "date": "2026-03-14",
+      "popular": false,
+      "description": "Beskrivning saknas.",
+      "id": 5
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "courseId": 1,
+      "name": "Anna Svensson",
+      "address": "Storgatan 10, Göteborg",
+      "email": "anna@example.com",
+      "phone": "0701234567",
+      "type": "classroom"
+    },
+    {
+      "courseId": 1,
+      "name": "dsdsd",
+      "address": "asd",
+      "email": "sds",
+      "phone": "sadad",
+      "type": "classroom",
+      "id": 2
+    },
+    {
+      "courseId": 1,
+      "name": "d",
+      "address": "sd",
+      "email": "sdsds",
+      "phone": "ddd",
+      "type": "classroom",
+      "id": 3
+    },
+    {
+      "courseId": 1,
+      "name": "ioio",
+      "address": "io",
+      "email": "o",
+      "phone": "o",
+      "type": "classroom",
+      "id": 4
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "username": "sdsd",
+      "password": "dsdsd",
+      "role": "student",
+      "id": 2
+    },
+    {
+      "username": "adad",
+      "password": "1234",
+      "role": "student",
+      "id": 3
+    }
+  ]
+}

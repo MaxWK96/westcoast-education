@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin - WestCoast Education</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="logo">🎓 WestCoast Education</a>
+    <ul>
+      <li><a href="index.html">Kurser</a></li>
+      <li><a href="admin.html">Admin</a></li>
+    </ul>
+    <div id="nav-user-info"></div>
+  </nav>
+
+  <main id="admin-content">
+
+    <!-- Lägg till ny kurs -->
+    <div class="admin-container">
+      <h2>➕ Lägg till ny kurs</h2>
+
+      <div class="form-group">
+        <label for="course-title">Kurstitel</label>
+        <input type="text" id="course-title" placeholder="T.ex. Python för nybörjare" />
+      </div>
+      <div class="form-group">
+        <label for="course-number">Kursnummer</label>
+        <input type="text" id="course-number" placeholder="T.ex. PY401" />
+      </div>
+      <div class="form-group">
+        <label for="course-days">Antal dagar</label>
+        <input type="number" id="course-days" placeholder="T.ex. 3" min="1" />
+      </div>
+      <div class="form-group">
+        <label for="course-price">Pris (kr)</label>
+        <input type="number" id="course-price" placeholder="T.ex. 8000" min="0" />
+      </div>
+
+      <button class="btn btn-primary" id="add-course-btn">Spara kurs</button>
+      <div class="success-msg" id="add-success">✅ Kursen har lagts till!</div>
+      <div class="error-msg" id="add-error">❌ Fyll i alla fält.</div>
+    </div>
+
+    <!-- Visa bokningar per kurs -->
+    <div class="admin-container">
+      <h2>👥 Bokningar per kurs</h2>
+
+      <select class="course-select" id="course-select">
+        <option value="">-- Välj kurs --</option>
+      </select>
+
+      <p id="no-bookings">Inga bokningar för denna kurs.</p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Namn</th>
+            <th>E-post</th>
+            <th>Telefon</th>
+            <th>Typ</th>
+          </tr>
+        </thead>
+        <tbody id="bookings-body"></tbody>
+      </table>
+    </div>
+
+  </main>
+
+  <script type="module" src="js/admin.js"></script>
+</body>
+</html>
